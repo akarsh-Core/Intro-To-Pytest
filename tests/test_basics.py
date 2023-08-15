@@ -25,7 +25,7 @@ def test_one_plus_one():
 def test_one_plus_two():
     a = 1
     b = 2
-    c = 3
+    c = 0
     assert a + b == c
 
 
@@ -53,6 +53,10 @@ products = [
     (2.5, 6.7, 16.75)  # floats
 ]
 
+
+"""
+ To demonstrate parametrization of testcases to follow DRY Principle
+"""
 
 @pytest.mark.parametrize('a, b, product', products)
 def test_multiplication(a, b, product):

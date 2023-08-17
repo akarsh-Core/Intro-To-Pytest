@@ -1,11 +1,13 @@
 import unittest
 
+
 class Calculator:
     def add(self, a, b):
         return a + b
 
     def subtract(self, a, b):
         return a - b
+
 
 class TestCalculator(unittest.TestCase):
     def setUp(self):

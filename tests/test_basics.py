@@ -20,6 +20,7 @@ def test_one_plus_one():
 
 # --------------------------------------------------------------------------------
 # A test function to show assertion introspection
+# it is supposed to fail
 # --------------------------------------------------------------------------------
 
 def test_one_plus_two():
